@@ -1,0 +1,11 @@
+build
+
+bin
+
+doc
+
+.settings
+.classpath
+
+.project
+*.zip
