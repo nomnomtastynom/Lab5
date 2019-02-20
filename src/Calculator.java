@@ -3,7 +3,7 @@
  * string and interprets it as a command. The calculator evaluates the command
  * and returns a result.
  *
- * @author Stephen Thung
+ * @author Stephen Thung and Sarath Sunkar
  * @version 2019-02-13
  */
 
@@ -194,7 +194,7 @@ public class Calculator
         }
 
     }
-    //it is now time to du du du du du du du du duelll
+   
 
     /**
      * Method to split up the user input. "Tokenizes" (converts a large string
@@ -229,6 +229,7 @@ public class Calculator
      *         "Calculator Exception, message is: %s", where %s is the message
      *         of a CalculatorException - a CalculatorException has been caught.
      */
+    
     public static String parseAndExecute(String input)
     {
         String[] tokens = input.split(" ");
@@ -259,9 +260,6 @@ public class Calculator
         }
 
         return "";
-        // TODO: complete this...
-        // Hint: you should try and call execute(). If execute encounters an
-        // error, it will throw an exception. This
-        // method will catch those exceptions and respond accordingly.
+       
     }
 }
